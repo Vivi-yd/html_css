@@ -20,9 +20,10 @@ body, html {
 
 .left-col {
 	height: inherit;
-    display: table-cell;
-    vertical-align: middle
-
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
 }
 
 .nopadding {
