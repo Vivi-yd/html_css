@@ -1,0 +1,40 @@
+.left-col > h1, .left-col> h2 {
+	font-family: 'arial', sans-serif !important;
+	font-size: 400% !important;
+	color: white;
+}
+
+body, html {
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+.container {
+	height: inherit;
+}
+
+.left-row {
+	height: inherit;
+}
+
+.left-col {
+	height: inherit;
+    display: table-cell;
+    vertical-align: middle
+
+}
+
+.nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.grad {
+    background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#9b59b6, #3498db); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9b59b6, #3498db); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9b59b6, #3498db); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9b59b6, #3498db); /* Standard syntax */
+}
+
