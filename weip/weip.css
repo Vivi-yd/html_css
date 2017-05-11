@@ -1,0 +1,14 @@
+h1 {
+	text-align: center;
+}
+#weip_score {
+	color: blue;
+	text-align: center;
+	margin: 0px auto;
+	width: 30%;
+	height: auto; 
+}
+
+.table-bordered {
+	border: 2px aqua;
+}
